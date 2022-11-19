@@ -1,3 +1,5 @@
+let x, y;
+
 // modify from https://github.com/mozilla/pdf.js/blob/master/examples/node/pdf2svg.js
 export function pdf_table_extractor_progress(result){
 };
