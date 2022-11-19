@@ -1,8 +1,8 @@
 // modify from https://github.com/mozilla/pdf.js/blob/master/examples/node/pdf2svg.js
-export pdf_table_extractor_progress = function(result){
+export function pdf_table_extractor_progress(result){
 };
 
-export pdf_table_extractor = function(doc){
+export function pdf_table_extractor(doc){
   var numPages = doc.numPages;
   var result = {};
   result.pageTables = [];
