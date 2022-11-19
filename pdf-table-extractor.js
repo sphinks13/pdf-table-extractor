@@ -1,4 +1,4 @@
-let x, y;
+let x, y, width, height, edge, edges1, edges2, new_lines, tables, table_pos, hor, col, left_col, right_col, ver, row, top_row, bottom_row;
 
 // modify from https://github.com/mozilla/pdf.js/blob/master/examples/node/pdf2svg.js
 export function pdf_table_extractor_progress(result){
