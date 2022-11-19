@@ -37,8 +37,9 @@ td {
 </div>
 
 <script src="build/pdf.js"></script>
-<script type="module" src="pdf-table-extractor.js"></script>
-<script id="script">
+<!-- <script type="module" src="pdf-table-extractor.js"></script> -->
+<script type="module" id="script">
+import {pdf_table_extractor, pdf_table_extractor_progress} from 'pdf-table-extractor.js';
 var drop = document.getElementById('drop');
 function handleDrop(e) {
     $('#json-result').text('Transfering file...');
